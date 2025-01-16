@@ -32,3 +32,19 @@ OutlinedButton.icon(
 
   How to use fonts ..for eg Text("hello" , style: GoogleFonts.roboto(color:Colors.red,fontSize:24)),
   same Like TextStyle we are using GoogleFonts.roboto and add textStyle like color,fontSize etc..
+
+**** for blur background
+
+use padding in body then child: Stack(children[
+  Align( Alignment: AlignmentDirction(x,y), child:Container la height ans width with boxDec(color))]),
+  same as much u want 
+  then finally the magic comes here that is backdropfilter
+   BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 100.0,sigmaY: 100.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.transparent,
+                ),
+              ),
+             
+             )....then bg blur.
