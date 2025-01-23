@@ -7,6 +7,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -95,7 +97,7 @@ class _ContactSwipeScreenState extends State<ContactSwipeScreen> {
 }
 
 class ContactHistoryPage extends StatelessWidget {
-   ContactHistoryPage({super.key});
+   const ContactHistoryPage({super.key});
 
 
   // String _generateRandomPhoneNumber() {

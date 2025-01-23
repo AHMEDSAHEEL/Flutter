@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:quizapp/data/answers.dart';
-import 'package:quizapp/models/questions.dart';
 import 'package:quizapp/QuizApp/quiz_question.dart';
 import 'package:quizapp/resultPages/result_screen.dart';
 import 'package:quizapp/QuizApp/start_screen.dart';

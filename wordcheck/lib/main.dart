@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,7 +31,7 @@ class whtsappList extends StatefulWidget {
   final String subtext;
 
 
-  whtsappList( this.text, this.subtext);
+  const whtsappList( this.text, this.subtext, {super.key});
 
   @override
   _whtsappListState createState() => _whtsappListState();
