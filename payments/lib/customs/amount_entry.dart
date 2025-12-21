@@ -18,7 +18,7 @@ class CustomAmountEntr extends StatelessWidget {
                   fontSize: 25),
             ),
             Container(
-              width: 140,
+              width: MediaQuery.of(context).size.width*0.3,
               child: const Divider(
                 thickness: 2.3,
                 color: Color.fromARGB(255, 52, 4, 133),

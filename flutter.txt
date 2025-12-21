@@ -48,3 +48,27 @@ use padding in body then child: Stack(children[
               ),
              
              )....then bg blur.
+
+             Abstract Class Example
+abstract class SampleCode {
+  add(dynamic a, dynamic b);
+  display(int c);
+}
+class SampImplement implements SampleCode {
+  add(dynamic a, dynamic b) {
+    return a + b;
+  }
+  display(dynamic c) {
+    print("$c");
+  }
+}
+void main() {
+  SampImplement obj = SampImplement();
+  obj.display(obj.add(5, 6));
+  obj.display(obj.add(5.8, 9.7));
+  obj.display(obj.add("Welcome", " dart"));
+}
+Output:
+11
+15.5
+Welcome dart

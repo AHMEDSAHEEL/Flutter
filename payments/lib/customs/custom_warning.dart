@@ -8,12 +8,13 @@ class CustomWarning extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(12.0),
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10),
-          color: const Color.fromARGB(255, 197, 196, 196),
-          border: Border.all(
-            color: const Color.fromARGB(255, 52, 4, 133),
-            width: 0.5,
-          )),
+        borderRadius: BorderRadius.circular(10),
+        color: const Color.fromARGB(255, 197, 196, 196),
+        border: Border.all(
+          color: const Color.fromARGB(255, 52, 4, 133),
+          width: 0.5,
+        ),
+      ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -25,7 +26,7 @@ class CustomWarning extends StatelessWidget {
             width: 5,
           ),
           Text(
-           warning,
+            warning,
             textAlign: TextAlign.justify,
             style: TextStyle(
               color: const Color.fromARGB(255, 52, 4, 133),

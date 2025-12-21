@@ -35,9 +35,7 @@ class CustomAmountCurrency extends StatelessWidget {
               fontWeight: FontWeight.bold,
               fontSize: 25),
         ),
-        SizedBox(
-          width: 10,
-        ),
+        
         IconButton(
           onPressed: () {},
           icon: Icon(Icons.keyboard_arrow_down_outlined),

@@ -6,13 +6,10 @@ class CustomExpandedDivider extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: Container(
-        width: 150,
-        child: const Divider(
-          height: 10,
-          thickness: 2.3,
-          color: Color.fromARGB(255, 204, 203, 204),
-        ),
+      child: const Divider(
+        height: 10,
+        thickness: 2.3,
+        color: Color.fromARGB(255, 204, 203, 204),
       ),
     );
   }
